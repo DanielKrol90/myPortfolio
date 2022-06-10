@@ -575,14 +575,14 @@ h3.my-profession
     display: block;
     margin: 0 auto 30px;
     text-align: center;
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover .icon
 {
@@ -606,4 +606,40 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
+}
+
+/* ! SECTION PORTFOLIO */
+
+.portfolio .container
+{
+    padding-bottom: 40px;
+}
+.portfolio .portfolio-heading
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.portfolio .portfolio-heading h2
+{
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+.portfolio .portfolio-item
+{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.portfolio .portfolio-item-inner
+{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .portfolio-item-inner .portfolio-img
+{
+    width: 100%;
+    display: block;
 }
