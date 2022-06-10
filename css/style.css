@@ -696,9 +696,10 @@ h3.my-profession
     font-weight: 400;
 }
 .contact .contact-form
-{
+{   
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
 }
 .contact .contact-form .col-6
 {
@@ -713,4 +714,84 @@ h3.my-profession
 .contact .contact-form .form-item
 {
     margin-bottom: 30px;
+}
+.contact .contact-form .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.contact .contact-form .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgb(48, 46 , 77, 0.15);
+}
+.contact .contact-form .form-item  textarea.form-control
+{
+    height: 140px;
+    text-align: center;
+}
+.contact .contact-form .btn
+{
+    height: 50px;
+    padding: 0 50px;
+}
+input[type="text"], input[type="email"]
+{
+    text-align: center;
+}
+
+/* ! MEDIA */
+@media (max-width: 1199px) 
+{
+    .aside {
+        left: -270px;
+    }
+    .main-content
+    {
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+        margin-left: 0;
+    }
+}   
+@media (max-width: 991px)
+{   
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-info
+    {
+        flex:  0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img
+    {
+        display: none;
+    }
+}
+@media (max-width: 767px)
+{   
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
