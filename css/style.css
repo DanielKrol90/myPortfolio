@@ -8,6 +8,10 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
 }
+html 
+{
+    scroll-behavior: smooth;
+}
 body
 {
     line-height: 1.5;
@@ -345,12 +349,12 @@ h3.my-profession
 }
 .about .about-content .about-text h3 span
 {
-    color: var(--skin-color)
+    color: var(--skin-color);
 }
 .about .about-content .about-text p
 {
     font-size: 16px;
-    line-height:25px
+    line-height:25px;
     color: var(var(--text-black-700))
 }
 .about .about-content .personal-info
