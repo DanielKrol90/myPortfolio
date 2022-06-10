@@ -129,7 +129,7 @@ ul
     box-shadow: 0 0 20px rgb(48, 46 , 77, 0.15)
 }
 
-/* ASIDE */
+/* SECTION ASIDE */
 
 .aside
 {
@@ -261,7 +261,7 @@ ul
     margin-right: 15px;
 }
 
-/* HOME */
+/* SECTION HOME */
 
 .home
 {
@@ -416,7 +416,7 @@ h3.my-profession
 }
 .about .about-content .skills .skill-item h5
 {
-    line-height:40px;
+    line-height: 40px;
     font-weight: 600;
     font-size: 16px;
     color: var(--text-black-900);
@@ -429,6 +429,10 @@ h3.my-profession
     border-radius: 4px;
     width: 100%;
     position: relative;
+}
+.about .about-content .skills .skill-item 
+{
+    margin-bottom: 25px;
 }
 .about .about-content .skills .skill-item .progress .progress-in
 {
@@ -452,9 +456,8 @@ h3.my-profession
 .about .about-content .experience
 {
     flex: 0 0 50%;
-    max-width: 100%;
+    max-width: 50%;
     margin-top: 30px;
-    padding-right: 80px;
 }
 .about .about-content h3.title 
 {
@@ -463,7 +466,7 @@ h3.my-profession
     font-weight: 700;
     color: var(--text-black-900);
 }
-.about .about-content.timeline-box
+.about .about-content .timeline-box
 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -480,8 +483,8 @@ h3.my-profession
 .about .about-content .timeline .timeline-item
 {
     position: relative;
-    padding-left: 30px;
-    padding-bottom: 40px;
+    padding-left: 37px;
+    padding-bottom: 50px;
 }
 .about .about-content .timeline .timeline-item:last-child
 {
@@ -533,3 +536,5 @@ h3.my-profession
     text-align: justify;
     color: var(--text-black-700);
 }
+
+/* SECTION SERVICE */
