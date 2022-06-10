@@ -49,6 +49,10 @@ ul
 {
     padding-left: 270px;
 }
+.break
+{
+    padding-top: 50px;
+}
 .pad-15
 {
     padding-left: 15px;
@@ -106,6 +110,7 @@ ul
     margin-left: -15px;
     margin-right: -15px;
     position: relative;
+    
 }
 .btn
 {
@@ -151,7 +156,7 @@ ul
 {
     position: absolute;
     top: 50px;
-    font-size:30px;
+    font-size: 30px;
     text-transform: capitalize;
 }
 
@@ -160,14 +165,14 @@ ul
     color: var(--text-black-900);
     font-weight: 700;
     padding:15px 20px;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 5px;
     position: relative;
 }
 .aside .logo a span
 {
     font-family: 'Clicker Script', cursive;
-    font-size: 40px;
+    font-size: 35px;
 }
 .aside .logo a::before
 {
