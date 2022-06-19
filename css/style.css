@@ -50,9 +50,6 @@ ul
     opacity: 1;
     padding: 0 30px;
 }
-.hidden {
-    display: none !important;
-}
 .main-content
 {
     padding-left: 270px;
@@ -140,6 +137,11 @@ ul
 .shadow-dark
 {
     box-shadow: 0 0 20px rgb(48, 46 , 77, 0.15)
+}
+.center 
+{
+    display: flex;
+    justify-content: center;
 }
 
 /*! SECTION ASIDE */
