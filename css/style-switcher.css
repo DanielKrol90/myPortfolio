@@ -34,6 +34,26 @@
     transition: all 0.3s ease;
     border-radius: 50%;
 }
+.style-switcher .lang {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 95%;
+    top: 110px;
+    border:  1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.style-switcher .lang i {
+    margin: 10px auto;
+    
+}
 .style-switcher .s-icon i
 {
     line-height: 40px;
