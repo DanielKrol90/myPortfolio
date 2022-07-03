@@ -434,6 +434,8 @@ h3.my-profession
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 30px;
+    position: relative;
+    font-size: 20px;
     
 }
 .about .about-content .skills .skill-item h5
@@ -454,13 +456,6 @@ h3.my-profession
     position: relative;
     
 }
-.about .about-content .skills .skill-item 
-{
-    position: relative;
-    margin-bottom: 25px;
-    font-size: 20px;
-    
-}
 .about .about-content .skills .skill-item .progress .progress-in
 {
     position: absolute;
@@ -478,8 +473,6 @@ h3.my-profession
     color: var(--text-black-900);
     font-weight: 400;
     line-height: 2;
-    ;
-    
 }
 .about .about-content .education,
 .about .about-content .experience
@@ -678,7 +671,6 @@ h3.my-profession
 {
    max-width: 100%;
    min-height: 100%;
-   
 }
 
 /* ! SECTION CONTACT */
