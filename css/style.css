@@ -666,12 +666,13 @@ h3.my-profession
 {
     width: 100%;
     display: block;
-    height: 350px;
+    height: 250px;
 }
 .portfolio .portfolio-item-inner .portfolio-img a img
 {
    max-width: 100%;
    min-height: 100%;
+   
 }
 
 /* ! SECTION CONTACT */
