@@ -307,7 +307,8 @@ h3.my-profession
     font-size: 25px;
     margin: 15px 0px;
 }
-.typing
+#typing,
+#typing-eng
 {
     color: var(--skin-color);
 }
@@ -777,6 +778,7 @@ input[type="text"], input[type="email"]
 {
     text-align: center;
 }
+
 
 /* ! MEDIA */
 @media (max-width: 1199px) 

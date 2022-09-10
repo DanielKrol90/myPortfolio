@@ -54,6 +54,10 @@
     margin: 10px auto;
     
 }
+.style-switcher .lang a i {
+    color: var(--text-black-900);
+}
+
 .style-switcher .s-icon i
 {
     line-height: 40px;

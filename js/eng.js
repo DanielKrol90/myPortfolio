@@ -1,11 +1,8 @@
-//! ===== TYPING ANIMATION ===== */
-let typed1 = new Typed("#typing", {
+let typed3 = new Typed("#typing-eng", {
     strings: [
-        ',',
-        'Frontend',
-	    'Tworzeniem Nowych Stron ',
-	    'Rozwojem Istniejących Stron',
-        'Tworzeniem aplikacji webowych'   
+	    'Creating New Website ',
+	    'Development of Existing Pages',
+        'Creating Web Applications'   
 	         ],
     typeSpeed: 50,
     BackSpeed: 80,
@@ -14,8 +11,7 @@ let typed1 = new Typed("#typing", {
     loop: true,
 });
 
-
-let typed2 = new Typed(".about-me", {
+let typed4 = new Typed("#typing-eng-2", {
     strings: [
         'HTML',
 	    'CSS',
@@ -28,8 +24,7 @@ let typed2 = new Typed(".about-me", {
         'JQUERY ',
         'AJAX',
         'SASS ',
-        'BOOTSTRAP',
-           
+        'BOOTSTRAP',   
 	         ],
     typeSpeed: 100,
     BackSpeed: 80,
@@ -37,3 +32,4 @@ let typed2 = new Typed(".about-me", {
     backDelay: 300,
     loop: true,
 });
+
