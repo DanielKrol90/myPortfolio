@@ -1,6 +1,6 @@
 <h2> This is my Portfolio. To create it I used HTML, CSS and JavaScript.
 <h3> Portfolio is prepared to display on PC Monitor and Mobile Phones using @Media. </h3>
-  <h3> For now only in PL version, ENG version in WORK.</h3>
+  <h3> Portofolio is in Polish and English language</h3>
   
  <h3> If you want, You can see my Portfolio: [Portfolio](https://myportfolio-dakr.netlify.app/) </h3>
   
